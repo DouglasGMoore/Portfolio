@@ -2,7 +2,7 @@ function buildNavHTML(stateLinks){
     return stateLinks
         .map(
             (link) =>
-                `<li><a href="/${link.text.toLowerCase()}" data-navigo>
+                `<li class = 'list'><a href="/${link.text.toLowerCase()}" data-navigo>
                     ${link.text}
                 </a></li>`
         )
@@ -14,7 +14,7 @@ export default (state) => `
 
   <nav>
   <ul>
-   ${buildNavHTML(state.links.primary)}
+   ${buildNavHTML(state.links.primary)}</br>
   </ul>
   </nav>
 `;

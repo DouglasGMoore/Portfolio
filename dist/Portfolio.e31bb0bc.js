@@ -127,12 +127,12 @@ exports.default = void 0;
 
 function buildNavHTML(stateLinks) {
   return stateLinks.map(function (link) {
-    return "<li><a href=\"/".concat(link.text.toLowerCase(), "\" data-navigo>\n                    ").concat(link.text, "\n                </a></li>");
+    return "<li class = 'list'><a href=\"/".concat(link.text.toLowerCase(), "\" data-navigo>\n                    ").concat(link.text, "\n                </a></li>");
   }).join(' ');
 }
 
 var _default = function _default(state) {
-  return "\n\n  <nav>\n  <ul>\n   ".concat(buildNavHTML(state.links.primary), "\n  </ul>\n  </nav>\n");
+  return "\n\n  <nav>\n  <ul>\n   ".concat(buildNavHTML(state.links.primary), "</br>\n  </ul>\n  </nav>\n");
 };
 
 exports.default = _default;
@@ -145,7 +145,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n    <div class = 'banner'><h2>Hello! Welcome to my portfolio. Look around and tell me what you think.</h2></div>\n        <div id=\"globe\">\n        </div>\n    ";
+  return "    \n        <div id = 'banner'>\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
 }
 
 ;
@@ -158,7 +158,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n\n<p >Hello!</p>\n<p class=\"bio\">Thank you for checking out my portfolio! I hope you like it. I am just beginning\n  my journey as a web developer. I already have experience with HTML/CSS, JavaScript, Pyhton, and C#.</p>\n<p class=\"bio\">I especially love JavaScript and Python.\nI have taken classes on HTML/CSS and JavaScript from freecodecamp.org and CodeAcademy.com. I am\ncurrently participating in a Javascript bootcamp through Savvy Coders.</p>\n<p class=\"bio\">In the future, I hope to specialiize in full-stack web developement and then graduate\n  into AI and deep learning. </p>\n<p class=\"bio\">I am also gaining experience and proficiency on Linux. I have used Centos, Mint, Manjaro, and Ubuntu</p>\n</div>\n";
+  return "\n\n<div id =\"content\">\n<div id = \"infoGrid\">\n\n<div class=\"grid-item\">1</div>\n<div class=\"grid-item\">2</div>\n<div class=\"grid-item\">3</div>\n<div class=\"grid-item\">4</div>\n<div class=\"grid-item\"><div>Hello!</br>\nThank you for checking out my portfolio! I hope you like it. I am just beginning\n  my journey as a web developer. I already have experience with HTML/CSS, JavaScript, Pyhton, and C#.\nI especially love JavaScript and Python.\nI have taken classes on HTML/CSS and JavaScript from freecodecamp.org and CodeAcademy.com. I am\ncurrently participating in a Javascript bootcamp through Savvy Coders.\nIn the future, I hope to specialiize in full-stack web developement and then graduate\n  into AI and deep learning. \nI am also gaining experience and proficiency on Linux. I have used Centos, Mint, Manjaro, and Ubuntu.</div>\n<div class=\"grid-item\">6</div>\n<div class=\"grid-item\">7</div>\n<div class=\"grid-item\">8</div>\n<div class=\"grid-item\">9</div>\n</div>\n</div>\n";
 }
 
 ;
@@ -171,7 +171,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n      <form\n        action=\"https://formspree.io/douglasg.moore@gmail.com\"\n        method=\"POST\"\n      >\n        <div>\n          <label for=\"name\"\n            >Name:<input\n              class=\"field\"\n              type=\"text\"\n              name=\"name\"\n              id=\"name\"\n              autofocus\n          /></label>\n        </div>\n        <div>\n          <label for=\"email\"\n            >Email:<input class=\"field\" typr=\"email\" name=\"email\" id=\"email\"\n          /></label>\n        </div>\n        <div>\n          <label for=\"msg\"\n            >Message:\n            <textarea\n              class=\"fields\"\n              name=\"msg\"\n              id=\"msg\"\n              cols=\"20\"\n              rows=\"10\"\n            ></textarea>\n          </label>\n          <div><input class=\"button\" type=\"submit\" value=\"send\" /></div>\n        </div>\n      </form>\n    ";
+  return "\n<div id =\"content\">      \n<form\naction=\"https://formspree.io/douglasg.moore@gmail.com\"\nmethod=\"POST\"\n>\n\n<div>\n <input\n    class=\"field\"\n    type=\"text\"\n      name=\"name\"\n    id=\"name\"\n    autofocus\n    placeholder =\"name\"\n    />\n  \n<div>\n  <input class=\"field\" typr=\"email\" name=\"email\" id=\"email\" placeholder =\"email\"\n      />\n  \n</div>\n<div>\n  \n  <textarea\n    class=\"fields\"\n    name=\"msg\"\n    id=\"msg\"\n    cols=\"80\"\n    rows=\"12\"\n    placeholder = \"message\"\n    >\n  </textarea>\n</div>\n<div><input class=\"button\" type=\"submit\" value=\"send\"></div>\n</div>\n\n  </form>\n      </div>\n    ";
 };
 
 exports.default = _default;
@@ -184,11 +184,11 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n    ";
+  return "\n    <div id = \"content\">\n    <div id = \"banner\">\n    <h2 class = \"white\">Free Code Camp Portfolio<h2>\n    <a href=\"https://dugmoore.github.io/\"><img src=\"/port.PNG\" alt=\"My Portfolio\" style=\"width:250;height:300;\"></a>\n    <p>freecodecamp.org was my introduction to web design and developement. From the first tribute website I was hooked. The classes I took covered HTML, CSS< and JavaScript. It was eye opening to learn how complicated positioning can get </p>\n    </div>\n    </div>\n    ";
 }
 
 ;
-},{}],"components/pages/Guestbook.js":[function(require,module,exports) {
+},{}],"components/pages/About.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -197,7 +197,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n";
+  return "\n<div id = \"main\">\n<div id =  \"comic\">\n    <div class=\"cell\">\n        <div class=\"sun\" style=\"background: white;\"></div>\n        <div class=\"cloud\"></div>\n        <div class=\"rain\">\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n            <div class=\"drop\"></div>\n        </div>\n        <div class=\"ball\"></div>\n        </div>\n        <div id = \"text\">\"At first I was afraid, I was petrified.\n        Thinking I could never do it, with no one by my side\"</div>\n    </div>\n    <div id =  \"comic\">\n    <div class=\"cell\">\n      <div class=\"sun\"></div>\n      <div class=\"cloud\"></div>\n\n      <div class=\"ball2\"></div>\n    </div>\n    <div id = \"text\">\"At first I was afraid, I was petrified.\n        Thinking I could never do it, with no one by my side\"</div>\n    <div id = \"text\">\"\"</div>\n    </div>\n    <div id =  \"comic\">\n    <div class=\"cell\">\n      <div class=\"sun\"></div>\n      <div class=\"space\"></div>\n      <div class=\"ball3\"></div>\n    </div>\n    <div id = \"text\">\"At first I was afraid, I was petrified.\n        Thinking I could never do it, with no one by my side\"\n    </div>\n  </div>\n  <div id =  \"comic\">\n  <div class=\"cell\">\n    <div class=\"sun\"></div>\n    <div class=\"space\"></div>\n    <div class=\"ball3\"></div>\n    <div class=\"ball4\"></div>\n    <div class=\"ball5\"></div>\n    <div class=\"ball6\"></div>\n    </div>\n    <div id = \"text\">\"At first I was afraid, I was petrified.\n    Thinking I could never do it, with no one by my side\"\n</div>\n</div>\n  </div>\n";
 };
 
 exports.default = _default;
@@ -231,10 +231,10 @@ Object.defineProperty(exports, "Work", {
     return _Work.default;
   }
 });
-Object.defineProperty(exports, "Guestbook", {
+Object.defineProperty(exports, "About", {
   enumerable: true,
   get: function () {
-    return _Guestbook.default;
+    return _About.default;
   }
 });
 
@@ -246,10 +246,10 @@ var _Contact = _interopRequireDefault(require("./Contact"));
 
 var _Work = _interopRequireDefault(require("./Work"));
 
-var _Guestbook = _interopRequireDefault(require("./Guestbook"));
+var _About = _interopRequireDefault(require("./About"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Welcome":"components/pages/Welcome.js","./Info":"components/pages/Info.js","./Contact":"components/pages/Contact.js","./Work":"components/pages/Work.js","./Guestbook":"components/pages/Guestbook.js"}],"components/Main.js":[function(require,module,exports) {
+},{"./Welcome":"components/pages/Welcome.js","./Info":"components/pages/Info.js","./Contact":"components/pages/Contact.js","./Work":"components/pages/Work.js","./About":"components/pages/About.js"}],"components/Main.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -275,7 +275,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<footer class = 'list'><h2>.redBall productions</h2></footer>";
+  return "\n<footer><h1>.redBall productions</h1></footer>";
 };
 
 exports.default = _default;
@@ -296,7 +296,7 @@ var _default = {
   }, {
     'text': 'Welcome'
   }, {
-    'text': 'Guestbook'
+    'text': 'About'
   }]
 };
 exports.default = _default;
@@ -372,7 +372,7 @@ var _default = {
   'links': _Links.default
 };
 exports.default = _default;
-},{"./Links":"store/Links.js"}],"store/Guestbook.js":[function(require,module,exports) {
+},{"./Links":"store/Links.js"}],"store/About.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -385,8 +385,8 @@ var _Links = _interopRequireDefault(require("./Links"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _default = {
-  'pageContent': 'Guestbook',
-  'title': 'Sign my guestbook ',
+  'pageContent': 'About',
+  'title': 'My JOurney as a jr programmer ',
   'links': _Links.default
 };
 exports.default = _default;
@@ -420,10 +420,10 @@ Object.defineProperty(exports, "Work", {
     return _Work.default;
   }
 });
-Object.defineProperty(exports, "Guestbook", {
+Object.defineProperty(exports, "About", {
   enumerable: true,
   get: function () {
-    return _Guestbook.default;
+    return _About.default;
   }
 });
 
@@ -435,10 +435,10 @@ var _Contact = _interopRequireDefault(require("./Contact"));
 
 var _Work = _interopRequireDefault(require("./Work"));
 
-var _Guestbook = _interopRequireDefault(require("./Guestbook"));
+var _About = _interopRequireDefault(require("./About"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Welcome":"store/Welcome.js","./Info":"store/Info.js","./Contact":"store/Contact.js","./Work":"store/Work.js","./Guestbook":"store/Guestbook.js"}],"node_modules/base64-js/index.js":[function(require,module,exports) {
+},{"./Welcome":"store/Welcome.js","./Info":"store/Info.js","./Contact":"store/Contact.js","./Work":"store/Work.js","./About":"store/About.js"}],"node_modules/base64-js/index.js":[function(require,module,exports) {
 'use strict'
 
 exports.byteLength = byteLength
@@ -21343,42 +21343,7 @@ function handleRoutes(params) {
 
 router.on(':path', handleRoutes).on('/', function () {
   return render(states.Welcome);
-}).resolve(); // axios
-//     .get('https://jsonplaceholder.typicode.com/posts')
-//     .then((response) => {
-//         console.log('before each');
-//         response.data.forEach((post) => states.Blog.posts.push(post));
-//         if(router.lastRouteResolved().params && router.lastRouteResolved().params.path === 'blog'){
-//             render(states.Blog);
-//             console.log(states);
-//         }
-//     });
-
-document.querySelector("#globe").addEventListener("click", function change() {
-  var colors = document.body.style.backgroundColor;
-  console.log(colors);
-
-  if (colors === "white") {
-    document.body.style.backgroundColor = "black";
-  } else {
-    document.body.style.backgroundColor = "white";
-  }
-});
-document.querySelector("#globe").addEventListener("click", function () {
-  var colors = document.body.style.backgroundColor;
-  var x = document.getElementsByClassName("list");
-  var i;
-
-  if (colors === "white") {
-    for (i = 0; i < x.length; i++) {
-      x[i].style.color = "black";
-    }
-  } else {
-    for (i = 0; i < x.length; i++) {
-      x[i].style.color = "white";
-    }
-  }
-});
+}).resolve();
 },{"./components/Navigation":"components/Navigation.js","./components/Main":"components/Main.js","./components/Footer":"components/Footer.js","./store":"store/index.js","lodash":"node_modules/lodash/lodash.js","navigo":"node_modules/navigo/lib/navigo.min.js","axios":"node_modules/axios/index.js"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -21407,7 +21372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53272" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52093" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

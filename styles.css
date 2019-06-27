@@ -1,16 +1,45 @@
 body {
-    width: 100vw;
+    width: 98vw;
     height: 95vh;
     margin: 0px;
-    background: black;
     font-family: "Josefin Slab", serif;
-  
-  }
+    color: black;
+    padding: 0;
+    background:white ;
+}
+form{
+  margin: 0px auto;
+} 
   footer{
-    color: white;
-    bottom: 0px;
+    display: flex;
     position: fixed;
-    padding-left: 10px;
+    font-family: "Josefin Slab", serif;
+    color: black;
+    background: white;
+    bottom: 00px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+  }
+  #content{
+    font-size: 1.5em;
+    top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+   
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 600px;
+    margin:0 auto;
+    color: black;
+  } 
+  #main{
+    display: block;
+    width: 600px;
+    margin: 0px auto;
   }
   .banner {
     position: absolute;
@@ -34,11 +63,12 @@ body {
     justify-content: flex-end;
     position: relative;
     display: inline;
-    color: white;
+    color: black;
     list-style: none;
     align-self: center;
   }
   li {
+    justify-content: flex-end;
     margin-top: 10px;
     display: flex;
     font-family: "Josefin Slab", serif;
@@ -46,6 +76,7 @@ body {
     font-size: 32px;
   }
   a {
+    color: black;
     text-decoration: none;
   }
   #globe {
@@ -58,3 +89,307 @@ body {
     left: 40%;
     background: radial-gradient(circle at 50px 50px, red, #000);
   }
+  #infoGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: green;
+  }
+  .fields{
+    color: black;
+    margin-left: 15px;
+  }
+  label{
+    float: right;
+  }
+  input{
+    width: 163px;
+    margin: 15px;
+  }
+  .white{
+    color: white;
+  }
+  #comic{
+    margin-left: 50px;
+    display: flex;
+  }
+  #text{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+  }
+
+  /* ?Animation */
+  .cell {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    margin: 0 10px;
+  }
+  .ball2 {
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    animation: bounce 0.7s infinite;
+    bottom: -160px;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(40px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  .ball {
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    bottom: -50px;
+  }
+  .ball3 {
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    animation: hiBounce 0.9s infinite;
+    bottom: -160px;
+  }
+  @keyframes hiBounce {
+    0% {
+      transform: translateY(40px);
+    }
+    50% {
+      transform: translateY(-200px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  .space{
+    height: 75px;
+  }
+  .ball4 {
+    left: 40px;
+    position: relative;
+    border-radius: 50%;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    animation: midBounce 0.8s infinite;
+    bottom: -115px;
+  }
+  @keyframes midBounce {
+    0% {
+      transform: translateY(40px);
+    }
+    50% {
+      transform: translateY(-220px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  .ball5 {
+    left: -40px;
+    position: relative;
+    border-radius: 50%;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    animation: bigBounce 1.0s infinite;
+    bottom: -60px;
+  }
+  @keyframes bigBounce {
+    0% {
+      transform: translateY(40px);
+    }
+    50% {
+      transform: translateY(-250px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  .ball6 {
+    left: -90px;
+    position: relative;
+    border-radius: 50%;
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    animation: lilBounce .8s infinite;
+    bottom: -16px;
+    z-index: -1;
+  }
+  @keyframes lilBounce {
+    0% {
+      transform: translateY(40px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+  .sun {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+    background: yellow;
+    border-radius: 50%;
+    z-index: -2;
+  }
+  .cloud {
+    position: relative;
+    top: 5px;
+    height: 75px;
+    width: 250px;
+    background: darkgrey;
+    z-index: -1;
+    border-radius: 50px;
+  }
+  .cloud:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 65px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: darkgrey;
+  }
+  .cloud:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 125px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: darkgrey;
+  }
+  .rain {
+width: 250px;
+height: 150px;
+margin: 0 auto;
+}
+.drop {
+position: relative;
+float: left;
+width: 2px;
+margin: 10px;
+left: 20px;
+background: #789;
+box-shadow: 1px 0.5px 1px 0.5px rgba(0, 0, 0, 0.75);
+animation: rain 0.8s infinite ease-out;
+}
+.drop:nth-child(1) {
+height: 15px;
+top: 5px;
+animation-delay: -1s;
+}
+.drop:nth-child(2) {
+height: 20px;
+animation-delay: -1.4s;
+}
+.drop:nth-child(3) {
+height: 15px;
+top: 5px;
+animation-delay: -1.6s;
+}
+.drop:nth-child(4) {
+height: 10px;
+top: 10px;
+animation-delay: -1.2s;
+}
+.drop:nth-child(5) {
+height: 5px;
+top: 15px;
+animation-delay: -1.6s;
+}
+.drop:nth-child(6) {
+height: 15px;
+top: 5px;
+animation-delay: -1s;
+}
+.drop:nth-child(7) {
+height: 20px;
+animation-delay: -1.4s;
+}
+.drop:nth-child(8) {
+height: 15px;
+top: 5px;
+animation-delay: -1.6s;
+}
+.drop:nth-child(9) {
+height: 10px;
+top: 10px;
+animation-delay: -1.2s;
+}
+.drop:nth-child(10) {
+height: 5px;
+top: 15px;
+animation-delay: -1.6s;
+}
+@keyframes rain {
+0% {
+opacity: 1;
+transform: translate(0, 0);
+}
+100% {
+opacity: 0.2;
+transform: translate(0, 200px);
+}
+}
+/*Icon size*/
+.fab {
+font-size: 2em;
+}
+/*Small divs*/
+.left {
+float: left;
+}
+.right {
+float: right;
+}
+.center {
+position: absolute;
+left: 47%;
+}
+.orange {
+color: orange;
+}
+.red {
+color: red;
+}
+.blue {
+color: blue;
+}
+.green {
+color: green;
+}
+.yellow {
+color: yellowgreen;
+}
