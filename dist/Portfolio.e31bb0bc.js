@@ -184,7 +184,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n    <div id = \"content\">\n    <div id = \"banner\">\n    <h2 class = \"white\">Free Code Camp Portfolio<h2>\n    <a href=\"https://dugmoore.github.io/\"><img src=\"/port.PNG\" alt=\"My Portfolio\" style=\"width:250;height:300;\"></a>\n    <p>freecodecamp.org was my introduction to web design and developement. From the first tribute website I was hooked. The classes I took covered HTML, CSS< and JavaScript. It was eye opening to learn how complicated positioning can get </p>\n    </div>\n    </div>\n    ";
+  return "\n    <div id = \"work\">\n    <div class = \"spacer\">Coursework, Portfolios, and More</div>\n    <div>\n    \n    <div><a href=\"https://dugmoore.github.io/\" class = \"greeny wide\">FreeCodeCamp</a><div>\n    <p>freecodecamp.org was my introduction to web design and developement. From the first tribute website I was hooked. \n    The classes I took covered HTML, CSS and JavaScript. It was eye opening to learn how complicated positioning can get </p>\n    </div>\n    </div>\n    ";
 }
 
 ;
@@ -21372,7 +21372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52093" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54252" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

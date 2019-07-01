@@ -41,6 +41,22 @@ form{
     width: 600px;
     margin: 0px auto;
   }
+  #work{
+    font-size: 1.5em;
+    top: 50px;
+    position: relative;
+    display: block;
+    padding: 10px;
+   
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 600px;
+    margin:0 auto;
+    color: black;
+  }
+  .spacer{
+    margin: 10px 0px;
+  }
   .banner {
     position: absolute;
     margin: 10px;
@@ -107,6 +123,12 @@ form{
   }
   .white{
     color: white;
+  }
+  .greeny{
+    color: green;
+  }
+  .wide{
+    width: 100%;
   }
   #comic{
     margin-left: 50px;
