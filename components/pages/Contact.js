@@ -1,5 +1,8 @@
 export default () => `
-<div id ="content">      
+<div class="center"><h3>Feel Free to Drop Me a Line</h3></div> 
+<div id ="content">  
+
+   
 <form
 action="https://formspree.io/douglasg.moore@gmail.com"
 method="POST"

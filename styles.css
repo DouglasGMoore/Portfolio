@@ -105,11 +105,16 @@ form{
     left: 40%;
     background: radial-gradient(circle at 50px 50px, red, #000);
   }
-  #infoGrid{
+  .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: green;
+    padding: 10px;
   }
+.grid-item{
+  height: 100px;
+  width: 200px;
+}
+
   .fields{
     color: black;
     margin-left: 15px;

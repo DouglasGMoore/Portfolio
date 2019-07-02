@@ -9,5 +9,7 @@ export default function(state){
     The classes I took covered HTML, CSS and JavaScript. It was eye opening to learn how complicated positioning can get </p>
     </div>
     </div>
+    </div>
+    </div>
     `
 };

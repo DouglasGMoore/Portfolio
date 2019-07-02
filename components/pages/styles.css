@@ -6,6 +6,12 @@ body {
     font-family: "Josefin Slab", serif;
   
   }
+  #grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color:green;
+
+  }
   footer{
     color: white;
     bottom: 0px;
