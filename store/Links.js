@@ -1,3 +1,3 @@
 export default {
-    'primary': [ { 'text': 'Welcome' }, { 'text': 'Contact' },{ 'text': 'About' },{ 'text': 'Work' } ],
+    'primary': [ { 'text': 'Welcome' }, { 'text': 'Contact' },{ 'text': 'About' },{ 'text': 'Work' }, { 'text': 'Info' } ],
 };

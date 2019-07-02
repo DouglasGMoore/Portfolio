@@ -145,7 +145,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "    \n        <div id = 'banner'>\n        Hello, And welcome to my .redBall Productions!\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
+  return "    \n        <div id = 'banner'>\n        Hello, And welcome to .redBall Productions!\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
 }
 
 ;
@@ -184,7 +184,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n    <div id = \"work\">\n    <div class = \"spacer\">Coursework, Portfolios, and More</div>\n    <div>\n    \n    <div><a href=\"https://dugmoore.github.io/\" class = \"greeny wide\">FreeCodeCamp</a><div>\n    <p>freecodecamp.org was my introduction to web design and developement. From the first tribute website I was hooked. \n    The classes I took covered HTML, CSS and JavaScript. It was eye opening to learn how complicated positioning can get </p>\n    </div>\n    </div>\n    </div>\n    </div>\n    ";
+  return "\n    <div class = \"title\"><h2>Coursework, Portfolios, and More</h2></div>\n    \n    <div class = \"work\">\n    \n    <a href=\"https://dugmoore.github.io/\" class = \"greeny wide\">FreeCodeCamp</a>\n    <div>\n    <p>freecodecamp.org was my introduction to web design and developement. From the first tribute website I was hooked. \n    The classes I took covered HTML, CSS and JavaScript. It was eye opening to learn how complicated positioning can get </p>\n    </div>\n<hr>\n<div class = \"\">\n    <a href=\"https://www.codecademy.com/Dug.mower\" class = \"greeny wide \">Code Academy</a>\n    </div>\n    <p>Code Academy was recomended by the hosts of Savvy Coders Bootcamp. The courses were fun and I learned some valuable lessons. </p>\n\n\n\n    <hr>\n    <div class = \"\">\n    <a href=\"\" class = \"greeny wide \">CS50 through edX</a>\n    </div>\n    <p>This was an excellent class. It covered so much information. It was very challenging at points too. I built projects in C, then in JavaScript, then in Python. \n    every step of the way reducing keystrokes when coding. It was an amazing expreience and i would recomend it to anyone.\n    <br>\n    *I am working on integrating my CS50 projects into this portfolio. There has been some trouble with others viewing my submit50 page on github with my homework and solutions on it.\n   \n    <hr>\n    <div class = \"\">\n    <a href=\"https://gracious-kowalevski-1f20ad.netlify.com/\" class = \"greeny wide \">Savvy Coders Bootcamp</a>\n    </div>\n    <p>This bootcamp was help in St.Louis and was a blast. I learned with 10 other students and I really learned what it is like to develope in a \n    professional enviornment. I had a great time an d I made some excellent friends. Not for everyone, but I still would recomend this to someone \n    who already knows the basics of JavaScript</p>\n     </div></div>\n\n\n\n\n    \n    </div>\n    \n    \n    ";
 }
 
 ;
@@ -295,6 +295,8 @@ var _default = {
     'text': 'About'
   }, {
     'text': 'Work'
+  }, {
+    'text': 'Info'
   }]
 };
 exports.default = _default;
@@ -21370,7 +21372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50593" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53914" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
