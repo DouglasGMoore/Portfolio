@@ -18,11 +18,9 @@ body {
     position: fixed;
     padding-left: 10px;
   }
-  .banner {
-    position: absolute;
-    margin: 10px;
-    top: 20%;
-    left:17%;
+  #banner {
+    font-size: 2em;
+   color: red;
   }
   h1 {
     margin: 0px;

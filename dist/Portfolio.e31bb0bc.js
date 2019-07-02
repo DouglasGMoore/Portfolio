@@ -145,7 +145,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "    \n        <div id = 'banner'>\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
+  return "    \n        <div id = 'banner'>\n        Hello, And welcome to my portfolio!\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
 }
 
 ;
@@ -158,7 +158,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "\n  <div class=\"grid-container\">\n    <div class=\"grid-item\"><img src=\"/ununtu.png\"></div>\n    <div class=\"grid-item\">2</div>\n    <div class=\"grid-item\">3</div>\n    <div class=\"grid-item\">hello<br>\n    Thank you for checking out my portfolio! I hope you like it. I am just beginning\n      my journey as a web developer. I already have experience with HTML/CSS, JavaScript, Pyhton, and C#.\n      I especially love JavaScript and Python.\n      I have taken classes on HTML/CSS and JavaScript from freecodecamp.org and CodeAcademy.com. I am\n      currently participating in a Javascript bootcamp through Savvy Coders.\n      In the future, I hope to specialiize in full-stack web developement and then graduate\n      into AI and deep learning. \n      I am also gaining experience and proficiency on Linux. I have used Centos, Mint, Manjaro, and Ubuntu.</div>\n    <div class=\"grid-item\">5</div>\n    <div class=\"grid-item\">6</div>\n    <div class=\"grid-item\">7</div>\n    <div class=\"grid-item\">8</div>\n    <div class=\"grid-item\">9</div>\n</div>";
+  return "\n  <div class=\"grid-container\">\n</div>";
 }
 
 ;
@@ -21372,7 +21372,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56156" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58729" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

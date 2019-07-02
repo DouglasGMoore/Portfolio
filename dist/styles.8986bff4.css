@@ -29,13 +29,18 @@ form{
     display: flex;
     justify-content: right;
     padding: 10px;
-   
     border: solid black 3px;
     border-radius: 5px;
     width: 600px;
     margin:0 auto;
     color: black;
   } 
+  #container{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+
+  }
   #main{
     display: block;
     width: 600px;
@@ -57,11 +62,10 @@ form{
   .spacer{
     margin: 10px 0px;
   }
-  .banner {
-    position: absolute;
-    margin: 10px;
-    top: 20%;
-    left:17%;
+  #banner {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;x
   }
   h1 {
     margin: 0px;
@@ -111,10 +115,13 @@ form{
     padding: 10px;
   }
 .grid-item{
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  
 }
-
+.centerItem{
+  height: 300px;
+  width: 300px;
+}
   .fields{
     color: black;
     margin-left: 15px;
