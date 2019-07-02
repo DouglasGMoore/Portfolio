@@ -145,7 +145,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = _default;
 
 function _default(state) {
-  return "    \n        <div id = 'banner'>\n        Hello, And welcome to my portfolio!\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
+  return "    \n        <div id = 'banner'>\n        Hello, And welcome to my .redBall Productions!\n             </div>\n        <div id=\"globe\">\n        </div>       \n    ";
 }
 
 ;
@@ -288,15 +288,13 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   'primary': [{
-    'text': 'Info'
-  }, {
-    'text': 'Work'
+    'text': 'Welcome'
   }, {
     'text': 'Contact'
   }, {
-    'text': 'Welcome'
-  }, {
     'text': 'About'
+  }, {
+    'text': 'Work'
   }]
 };
 exports.default = _default;
@@ -21372,7 +21370,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58729" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50593" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
