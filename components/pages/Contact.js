@@ -19,7 +19,7 @@ method="POST"
     />
   
 <div>
-  <input class="field" typr="email" name="email" id="email" placeholder ="email"
+  <input class="field" type="email" name="email" id="email" placeholder ="email"
       />
   
 </div>
@@ -29,7 +29,7 @@ method="POST"
     class="fields"
     name="msg"
     id="msg"
-    cols="80"
+    cols="60"
     rows="12"
     placeholder = "message"
     >
